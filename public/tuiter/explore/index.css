@@ -1,0 +1,23 @@
+body {
+    font-family: "Arial";
+    background-color: black;
+    color: white;
+}
+
+.wd-nav-tabs {
+    color: rgb(29,161,242);
+    padding: 0px;
+}
+
+.wd-nav-tabs li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.wd-nav-tabs .wd-selected {
+    border-bottom: solid 4px rgb(29,161,242);
+}
+
+.wd-darkgray {
+    background-color: darkgray;
+}
