@@ -1,11 +1,46 @@
-body {
-    font-family: "Arial";
+.wd-pad-left {
+    padding-left: 16px;
+}
+
+.wd-border {
+    color: rgb(47, 51, 54);
+}
+
+.wd-input-field {
+    width: 80%;
+    font-size: 20px;
+
+}
+
+.wd-icon-size {
+    font-size: 30px;
+}
+.wd-bg-color-black {
     background-color: black;
+}
+
+.wd-bg-color-darkgray {
+    background-color: darkgray;
+}
+
+.wd-font-color-white {
     color: white;
 }
 
+.wd-corners-around {
+    border-radius: 10px;
+}
+
+.wd-pad-right {
+    padding-right: 12px;
+}
+
+.wd-float-right {
+    float: right;
+}
+
 .wd-nav-tabs {
-    color: rgb(29,161,242);
+    color: rgb(110,118,125);
     padding: 0px;
 }
 
@@ -14,10 +49,69 @@ body {
     display: inline-block;
 }
 
+.wd-display {
+    display: inline;
+}
+
 .wd-nav-tabs .wd-selected {
+    color: rgb(29, 161, 242);
     border-bottom: solid 4px rgb(29,161,242);
 }
 
-.wd-darkgray {
-    background-color: darkgray;
+.wd-pad-around {
+    padding: 16px;
 }
+
+.wd-heading {
+    font-size: 15px;
+}
+
+.wd-border-solid {
+    border: 1px solid;
+}
+
+.wd-border-color-gray {
+    color: gray;
+}
+
+.wd-post-color {
+    color: rgb(110, 118, 125);
+}
+
+.wd-post-font {
+    font-size: 13px;
+}
+
+.wd-boarder-top{
+    border-top: none
+}
+
+.wd-boarder-bottom {
+    border-bottom: none;
+}
+
+.wd-float-right {
+    float: right;
+}
+
+.wd-image-pad-right {
+    padding-right: 16px;
+}
+
+.wd-image-size {
+    height: 100px;
+    width: 100px;
+}
+
+.wd-float-clear {
+    clear: both;
+}
+
+.wd-option {
+    float:right;
+    font-size: 20px;
+    padding-right: 12px;
+    color: white;
+}
+
+

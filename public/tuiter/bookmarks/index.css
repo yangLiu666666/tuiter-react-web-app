@@ -1,0 +1,137 @@
+.wd-border {
+    color: rgb(47, 51, 54);
+}
+
+.wd-bg-color-black {
+    background-color: black;
+}
+
+.wd-heading {
+    font-size: 20px;
+    color: white;
+    padding-top: 12px;
+    padding-left: 16px;
+}
+
+.wd-author {
+    font-size: 13px;
+    color: lightgray;
+    padding-left: 16px;
+}
+
+.wd-border-solid {
+    border:1px solid;
+    color: lightgray;
+}
+
+.wd-pad-bottom {
+    padding-bottom: 12px;
+}
+
+.wd-option {
+    float:right;
+    font-size: 20px;
+    padding-right: 12px;
+    color: rgb(29, 161, 242);
+}
+
+.wd-float-clear {
+    clear: both;
+}
+.wd-constructor {
+    padding-left: 16px;
+    padding-top: 12px;
+}
+
+.wd-avatar-size {
+    border-radius: 50%;
+    height: 48px;
+    width: 48px;
+}
+
+.wd-pad-right {
+    padding-right: 12px;
+}
+
+.wd-pad-top {
+    padding-top: 12px;
+}
+
+.wd-pad-left {
+    padding-left: 16px;
+}
+
+.wd-author-font-size {
+    font-size: 15px;
+}
+
+.wd-color-white {
+    color: white;
+}
+
+.wd-color-lightgray {
+    color: lightgray;
+}
+
+.wd-float-left {
+    float: left;
+}
+
+.wd-width {
+    max-width: 506px;
+}
+
+.wd-paragraph {
+    color: white;
+    font-size: 15px;
+}
+
+.wd-image-size {
+    width: 504px;
+    height: 264px;
+}
+
+.wd-corners-round-top{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.wd-corners-round-bottom{
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.wd-pad{
+    padding: 12px;
+}
+
+.wd-font-bold{
+    font-weight: bold;
+}
+
+.wd-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wd-icon-space{
+    padding-left: 12px;
+}
+
+.wd-icons {
+    color: lightgray;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.wd-icon-original {
+    color: lightgray;
+    font-size: 15px;
+
+}
+
+.wd-icon-heart {
+    color: red;
+}
+
