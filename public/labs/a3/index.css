@@ -423,7 +423,7 @@ p#id-selector-2 {
 
 @media (min-width: 600px) and (max-width: 1200px) {
     body {
-        background-color: blue;
+        background-color: pink;
         color: white;
     }
     .media-query {
@@ -432,27 +432,38 @@ p#id-selector-2 {
     }
 }
 @media (min-width: 1200px) and (max-width: 1800px) {
-    body {
+    .media-body {
         background-color: red;
         color: white;
     }
     .media-query {
-        background-color: blue;
-        color: white;
+        background-color: lightgreen;
+        color: mediumpurple;
     }
 }
 
-@media (min-width: 0px) and (max-width: 500px) {
+@media (min-width: 1200px) and (max-width: 1800px) {
+    .media-body {
+        background-color: red;
+        color: white;
+    }
+    .media-query {
+        background-color: lightgreen;
+        color: mediumpurple;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 550px) {
     body{
         background-color: yellow;
     }
     .media-example {
         background-color: red;
-        color: white;
+        color: mediumpurple;
     }
 }
 
-@media (min-width: 500px) and (max-width: 1000px) {
+@media (min-width: 550px) and (max-width: 1100px) {
     body {
         background-color: pink;
         color: white;
@@ -463,14 +474,14 @@ p#id-selector-2 {
     }
 }
 
-@media (min-width: 1000px) and (max-width: 1500px) {
+@media (min-width: 1100px) and (max-width: 1650px) {
     body {
         background-color: green;
         color: white;
     }
     .media-example {
         background-color: blue;
-        color: white;
+        color: black;
     }
 }
 
