@@ -3,68 +3,233 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link href="../../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+    <script src="../../vendors/bootstrap/js/bootstrap.min.js"></script>
+    <link href="../../vendors/fontawesome/css/all.css" rel="stylesheet"/>
+<!--    <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css" rel="stylesheet"/>-->
     <link href="index.css" rel="stylesheet"/>
 </head>
 <body>
-<div class="wd-border wd-bg-color-black">
-    <input type="text" class="wd-bg-color-darkgray wd-font-color-white wd-corners-around wd-input-field" placeholder="&#128269 Search Tuiter"/>
-    <a href="explore-settings.html" class="wd-pad-right wd-float-right wd-icon-size" style="text-decoration:none">&#9881</a>
-    <ul class="wd-nav-tabs">
-        <li class="wd-selected wd-pad-around wd-font-size">For you</li>
-        <li class="wd-pad-around wd-font-size">Trending</li>
-        <li class="wd-pad-around wd-font-size">COVID-19</li>
-        <li class="wd-pad-around wd-font-size">News</li>
-        <li class="wd-pad-around wd-font-size">Sports</li>
-        <li class="wd-pad-around wd-font-size">Entertainment</li>
-    </ul>
-    <div class="wd-border-solid wd-border-color-gray">
-        <br>
-    </div>
+    <div class="container pt-1">
+        <div class="row">
+            <div class="col-2">
+                <div class="list-group">
+                    <a class="nav-link list-group-item list-group-item-action wd-bg-color-black" href="#"><i class="fab fa-twitter wd-color-white"></i></a>
+                    <a class="nav-link list-group-item list-group-item-action wd-bg-color-black" href="../home.html"><i class="fas fa-home wd-color-white"></i><span class="d-none d-xl-inline d-lg-none p-2 wd-color-white">Home</span></a>
+                    <a class="nav-link list-group-item list-group-item-action  wd-bg-color-black" href="#"><i class="fas fa-lg fa-hashtag wd-color-white"></i><span class="d-none d-xl-inline d-lg-none p-2 wd-color-white">Explore</span> </a>
+                    <a class="nav-link list-group-item list-group-item-action wd-bg-color-black " href="#"><i class="fas fa-bell wd-color-white"></i><span class="d-none d-xl-inline d-lg-none p-2 wd-color-white">Notifications</span></a>
+                    <a class="nav-link list-group-item list-group-item-action wd-bg-color-black" href="#"><i class="fas fa-envelope wd-color-white d-inline-block"></i><span class="d-none d-xl-inline d-lg-none p-2 wd-color-white">Messages</span></a>
+                    <a class="nav-link list-group-item list-group-item-action wd-bg-color-black" href="../bookmarks/index.html"><i class="fas fa-bookmark wd-color-white d-inline-block"></i><span class="d-none d-xl-inline d-lg-none p-2 wd-color-white">Bookmarks</span></a>
+                    <a class="nav-link list-group-item list-group-item-action wd-bg-color-black" href="#"><i class="fas fa-list wd-color-white"></i><span class="d-none d-xl-inline d-lg-none p-2 wd-color-white">Lists</span></a>
+                    <a class="nav-link list-group-item list-group-item-action wd-bg-color-black" href="../profile.html"><i class="fas fa-user wd-color-white"></i><span class="d-none d-xl-inline d-lg-none p-2 wd-color-white"> Profile</span></a>
+                    <a class="nav-link list-group-item list-group-item-action wd-bg-color-black" href="#"><i class="fa-regular fa-circle-ellipsis wd-color-white"></i><i class="fas fa-ellipsis-h wd-color-white"></i><span class="d-none d-xl-inline d-lg-none p-2 wd-color-white"> More</span></a>
+                </div>
+                <button type="button" class="btn btn-primary w-100 mt-1 rounded-pill" >Tweet</button>
+            </div>
+            <div class="col-6">
+                <div class="row">
+                    <div class="col-10">
+                        <div class="position-relative">
+                            <i class="fas fa-search position-absolute wd-search-tuiter ps-2"></i>
+                            <input type="text" class="ps-5 form-control rounded-pill wd-bg-gray" placeholder="Search Tuiter"/>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <a href="explore-settings.html">
+                            <i class="mt-2 fas fa-cog"></i>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <ul class="nav nav-tabs mt-1 mb-1">
+                        <li class="nav-item">
+                            <a class="nav-link active wd-selected" href="#">For you</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-secondary" href="#">Trending</a>
+                        </li>
+<!--                        <li class="nav-item">-->
+<!--                            <a class="nav-link" href="#">COVID-19</a>-->
+<!--                        </li>-->
+                        <li class="nav-item">
+                            <a class="nav-link text-secondary" href="#">News</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-secondary " href="#">Sports</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-secondary" href="#">Entertainment</a>
+                        </li>
+                    </ul>
+                    <div class="position-relative">
+                        <img src="../../images/starship.jpg" width="100%"/>
+                        <h1 class="position-absolute bottom-0 left-0 text-white">SpaceX's Starship</h1>
+                    </div>
+                    <ul class="list-group wd-bg-color-black">
+                        <li class="list-group-item wd-bg-color-black">
+                            <div class="row wd-bg-color-black">
+                                <div class="col-8">
+                                    <div class="text-secondary">
+                                        Web Development
+                                    </div>
+                                    <div class="fw-bolder wd-color-white ">
+                                        ReactJS
+                                        <i class="fas fa-check-circle p-1"></i>
+                                        <span class="text-secondary fw-normal">- 2h</span>
+                                    </div>
+                                    <div class="fw-bolder wd-color-white ">
+                                        React.js is a component based front end library that makes it very easy to build Single Page Applications or SPAs
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <img class="float-end wd-rounded-corners-all-around img-fluid" src="../../images/react.png" width="100%"/>
+                                </div>
 
-    <div class="wd-border-solid wd-boarder-top wd-boarder-bottom wd-border-color-gray wd-pad-around">
-        <a href="" class="wd-option" style="text-decoration:none">···</a>
-        <div class="wd-post-font wd-post-color">Trending in Science</div>
-        <div class="wd-font-color-white">Starship</div>
-        <div class="wd-post-font wd-post-color">55.5K Tweets</div>
-    </div>
-    <div class="wd-border-solid wd-boarder-top wd-boarder-bottom wd-border-color-gray wd-pad-around">
-        <a href="" class="wd-option" style="text-decoration:none">···</a>
-        <div class="wd-post-font wd-post-color">Sports · Trending</div>
-        <div class="wd-font-color-white">Joe Rogan</div>
-        <div class="wd-post-font wd-post-color">5,218 Tweets</div>
-    </div>
-    <div class="wd-border-solid wd-boarder-top wd-border-color-gray wd-pad-around">
-        <a href="" class="wd-option" style="text-decoration:none">···</a>
-        <div class="wd-post-font wd-post-color">Trending in United States</div>
-        <div class="wd-font-color-white">Wonder Bread</div>
-        <div class="wd-post-font wd-post-color">1,259 Tweets</div>
-    </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item  wd-bg-color-black">
+                            <div class="row  wd-bg-color-black">
+                                <div class="col-8">
+                                    <div class="fw-bolder wd-color-white">
+                                        Javascript
+                                        <i class="fas fa-check-circle p-1"></i>
+                                        <span class="text-secondary fw-normal">- 2h</span>
+                                    </div>
+                                    <div class="fw-bolder wd-color-white">
+                                        JavaScript is programming language that can run on browsers as well as desktops
+                                    </div>
 
-    <div class="wd-border-solid wd-boarder-top wd-border-color-gray wd-pad-around">
-        <div class="wd-font-color-white wd-post-font">The New York Times
-            <p class="wd-post-color wd-display wd-post-font"> · Yesterday</p>
+                                </div>
+                                <div class="col-4">
+                                    <img class="float-end wd-rounded-corners-all-around img-fluid" src="../../images/javascript.jpg" width="100%"/>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item wd-bg-color-black">
+                            <div class="row wd-bg-color-black">
+                                <div class="col-8">
+                                    <div class="text-secondary">
+                                        Web Development
+                                    </div>
+                                    <div class="fw-bolder wd-color-white">
+                                        jQuery
+                                    </div>
+                                    <div class="text-secondary">
+                                        123K Tweets
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <img class="float-end wd-rounded-corners-all-around img-fluid" src="../../images/jquery.jpg" width="100%"/>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item wd-bg-color-black">
+                            <div class="row wd-bg-color-black">
+                                <div class="col-8">
+                                    <div class="text-secondary">
+                                        Web Development
+                                    </div>
+                                    <div class="fw-bolder wd-color-white">
+                                        NodeJS
+                                        <i class="fas fa-check-circle p-1"></i>
+                                        <span class="text-secondary fw-normal">- 2h</span>
+                                    </div>
+                                    <div class="text-secondary">
+                                        123K Tweets
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <img class="float-end wd-rounded-corners-all-around img-fluid" src="../../images/njs.png" width="100%"/>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 d-none d-lg-block d-md-none">
+                <div class="list-group">
+                    <div class="list-group-item fw-bolder wd-bg-gray">
+                        <div class="wd-color-white">Who to follow</div>
+                    </div>
+
+                    <div class="list-group-item wd-bg-gray">
+                        <div class="row">
+                            <div class="col-2">
+                                <img src="../../images/java.png" class="rounded-circle wd-img-size" width="100%">
+                            </div>
+                            <div class="col-6">
+                                <span class="fw-bolder wd-color-white">Java</span>
+                                <i class="fas fa-check-circle p-1 wd-color-white"></i>
+                                <div class="text-secondary"> @Java</div>
+                            </div>
+                            <div class="col-4">
+                                <button type="button" class="btn btn-primary w-100 mt-1 rounded-pill float-end" >Follow</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list-group-item wd-bg-gray">
+                        <div class="row">
+                            <div class="col-2">
+                                <img src="../../images/rela.webp" class="rounded-circle wd-img-size" width="100%">
+                            </div>
+                            <div class="col-6">
+                                <span class="fw-bolder wd-color-white">Relativity Space</span>
+                                <i class="fas fa-check-circle p-1 wd-color-white"></i>
+                                <div class="text-secondary"> @relativityspace</div>
+                            </div>
+                            <div class="col-4">
+                                <button type="button" class="btn btn-primary w-100 mt-1 rounded-pill float-end" >Follow</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list-group-item wd-bg-gray">
+                        <div class="row">
+                            <div class="col-2">
+                                <img src="../../images/gala.webp" class="rounded-circle wd-img-size" width="100%">
+                            </div>
+                            <div class="col-6">
+                                <span class="fw-bolder wd-color-white">Virgin Galactic</span>
+                                <i class="fas fa-check-circle p-1 wd-color-white"></i>
+                                <div class="text-secondary"> @virgingalactic</div>
+                            </div>
+                            <div class="col-4">
+                                <button type="button" class="btn btn-primary w-100 mt-1 rounded-pill float-end" >Follow</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list-group-item wd-bg-gray">
+                        <div class="row">
+                            <div class="col-2">
+                                <img src="../../images/nasa.jpeg" class="rounded-circle wd-img-size" width="100%">
+                            </div>
+                            <div class="col-6">
+                                <span class="fw-bolder wd-color-white">NASA</span>
+                                <i class="fas fa-check-circle p-1 wd-color-white"></i>
+                                <div class="text-secondary"> @NASA</div>
+                            </div>
+                            <div class="col-4">
+                                <button type="button" class="btn btn-primary w-100 mt-1 rounded-pill float-end" >Follow</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list-group-item wd-bg-gray">
+                        <div class="row">
+                            <div class="col-2">
+                                <img src="../../images/tesla.jpeg" class="rounded-circle wd-img-size" width="100%">
+                            </div>
+                            <div class="col-6">
+                                <span class="fw-bolder wd-color-white">Tesla</span>
+                                <i class="fas fa-check-circle p-1 wd-color-white"></i>
+                                <div class="text-secondary"> @Tesla</div>
+                            </div>
+                            <div class="col-4">
+                                <button type="button" class="btn btn-primary w-100 mt-1 rounded-pill float-end" >Follow</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="wd-font-color-white">CNN's Cuomo conundrum: A star anchor with a brother in trouble</div>
-        <img class="wd-corners-around wd-float-right wd-image-pad-right wd-image-size" src="../../tuiter/explore/newyork.jpg"/>
-        <div class="wd-float-clear"></div>
-
     </div>
-
-    <div class="wd-border-solid wd-boarder-top wd-border-color-gray wd-pad-around">
-        <div class="wd-post-font">COVID-19 · LIVE</div>
-        <div class="wd-font-color-white">COVID-19: News and updates for Massachusetts</div>
-        <img class="wd-corners-around wd-float-right wd-image-pad-right wd-image-size" src="../../tuiter/explore/ma.jpg"/>
-        <div class="wd-float-clear"></div>
-    </div>
-
-    <div class="wd-border-solid wd-boarder-top wd-border-color-gray wd-pad-around">
-        <div class="wd-font-color-white wd-post-font">Bloomberg Opinion
-            <p class="wd-post-color wd-display wd-post-font"> · Yesterday</p>
-        </div>
-        <div class="wd-font-color-white">Thinking about getting a booster? Read this first.</div>
-        <img class="wd-corners-around wd-float-right wd-image-pad-right wd-image-size" src="../../tuiter/explore/booster.jpg"/>
-        <div class="wd-float-clear"></div>
-    </div>
-</div>
 </body>
 </html>
