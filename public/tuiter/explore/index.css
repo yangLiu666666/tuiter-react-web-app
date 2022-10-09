@@ -25,6 +25,12 @@ body {
 
 .wd-bg-gray{
     background-color:#16181c;
+    /*background-color: dimgray;*/
+}
+
+.wd-color-gray{
+    color: dimgray;
+    font-size: 20px;
 }
 
 .wd-selected {
