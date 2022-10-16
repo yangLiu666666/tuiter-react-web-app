@@ -24,5 +24,4 @@ const PostSummaryItem = (post) => {
             </div>                   
     `);
 }
-
 export default PostSummaryItem;

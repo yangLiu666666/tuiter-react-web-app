@@ -1,4 +1,4 @@
-import posts from './posts.js'
+import posts from './post.js'
 import PostItem from "./PostItem.js";
 
 const PostList = () => {
