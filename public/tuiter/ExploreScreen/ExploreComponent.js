@@ -1,4 +1,4 @@
-import PostSummaryList from "../PostSummaryList";
+import PostSummaryList from "../PostSummaryList/index.js";
 import NavigationBar from "../NavigationBar/index.js"
 import SearchBar from "../SearchBar/index.js";
 import TopicImage from "../TopicList/index.js";
