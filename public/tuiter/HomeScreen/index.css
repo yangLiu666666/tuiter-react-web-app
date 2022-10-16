@@ -1,0 +1,34 @@
+.wd-bg-color-black {
+    background-color: black;
+}
+
+.wd-color-white {
+    color: white;
+}
+
+.wd-space {
+    padding-left: 12px;
+}
+
+.wd-rounded-corners-all-around {
+    border-radius: 20px;
+}
+
+.wd-boarder-solid{
+    border-bottom:1px solid dimgrey;
+}
+
+div.list-group.wd-setup{
+    border-radius: 20px;
+}
+div.list-group-item.wd-setup{
+    background-color: black;
+    border-top:none;
+    border-left: none;
+    border-right: none;
+}
+
+div.list-group > .wd-image.list-group-item{
+    padding: 0;
+    overflow: auto;
+}
