@@ -1,7 +1,7 @@
 import PostSummaryList from "../PostSummaryList";
 import NavigationBar from "../NavigationBar/index.js"
 import SearchBar from "../SearchBar/index.js";
-import TopicImage from "../TopicImage/index.js";
+import TopicImage from "../TopicList/index.js";
 
 const ExploreComponent = () => {
     return(`
