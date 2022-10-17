@@ -13,7 +13,12 @@ function exploreComponent() {
         ${ExploreComponent()}
        </div>
        <div class="d-none d-sm-none d-md-none d-lg-block col-lg-4 col-xl-4">
-        ${WhoToFollowList()}
+       <div class="list-group">
+           <div class="list-group-item fw-bolder">
+                <div class="wd-color-white">Who to follow</div>
+           </div>
+       ${WhoToFollowList()}
+       </div>
        </div>
     </div>
    `);
