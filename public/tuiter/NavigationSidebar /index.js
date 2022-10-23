@@ -4,8 +4,7 @@ const NavigationSidebar = (active) => {
 <!--     <a class="list-group-item" href="/">-->
 <!--       <i class="fab fa-twitter"></i></a>-->
 <!--        continue rest of list, e.g., Home, Explore, Notifications,  Messages, etc. -->
-            <a class="nav-link list-group-item list-group-item-action" href="#">
-                <i class="fab fa-twitter"></i></a>
+            c
 <!--            <a class="nav-link list-group-item list-group-item-action" href="../home.html">-->
 <!--                <i class="fas fa-home"></i>-->
 <!--                <span class="d-none d-xl-inline d-lg-none p-2">Home</span></a>-->
