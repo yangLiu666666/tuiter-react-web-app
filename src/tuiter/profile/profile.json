@@ -1,0 +1,16 @@
+{
+  "firstName": "Liu",
+  "lastName": "Yang",
+  "handle": "liuyang",
+  "profilePicture": "../../images/profile.webp",
+  "bannerPicture": "../../images/HTML.jpg",
+  "bio": "Northeastern University Graduate Student in CS, I am looking for an internship for next summer.",
+  "website": "https://www.linkedin.com/in/liu-yang-058116167/",
+  "location": "Boston, MA",
+  "dateOfBirth": "2002-06-06",
+  "dateJoined": "7/2020",
+  "followingCount": 130,
+  "followersCount": 550,
+  "tuitCounts": 666
+}
+
