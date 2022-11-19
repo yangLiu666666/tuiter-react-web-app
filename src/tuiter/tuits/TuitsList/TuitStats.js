@@ -1,7 +1,9 @@
 import React from "react";
-
+import {useDispatch} from "react-redux";
+import {updateTuitThunk} from "../../../services/tuits-thunks";
 
 const TuitStats = ({ tuit }) => {
+    const dispatch = useDispatch();
     return (
         <div className="d-flex flex-row justify-content-between align-items-start mt-3">
             <div className="col-3">
@@ -13,14 +15,18 @@ const TuitStats = ({ tuit }) => {
                 <span className="p-2">{tuit.retuits}</span>
             </div>
             <div className="col-3">
-                {tuit.liked && (
-                    <i
-                        className="bi bi-heart-fill me-2"
-                        style={{ color: tuit.liked ? "red" : "white" }}
-                    ></i>
-                )}
-                {!tuit.liked && <i className="bi bi-heart me-2"></i>}
+                <i onClick={() => dispatch(updateTuitThunk({
+                    ...tuit,
+                    likes: tuit.likes + 1
+                }))} className="bi bi-heart-fill me-2 text-danger"/>
                 {tuit.likes}
+            </div>
+            <div className="col-3">
+                <i onClick={() => dispatch(updateTuitThunk({
+                    ...tuit,
+                    dislikes: tuit.dislikes + 1
+                }))} className="bi bi-hand-thumbs-down me-2"/>
+                {tuit.dislikes}
             </div>
             <div className="col-3">
                 <i className="bi bi-upload"></i>
