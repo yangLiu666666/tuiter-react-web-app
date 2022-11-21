@@ -2,7 +2,7 @@ import './App.css';
 import Labs from "./labs/index.js";
 import HelloWorld from "./labs/a6/hello-world.js";
 import Tuiter from "./tuiter";
-import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 import {BrowserRouter} from "react-router-dom";
 import {Routes, Route} from "react-router";
 import Assignment7 from "./labs/a7";

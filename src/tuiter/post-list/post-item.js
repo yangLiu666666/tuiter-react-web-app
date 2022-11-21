@@ -2,7 +2,7 @@ import React from "react";
 
 const PostItem = ({post =
     {
-        "avatar": "../../images/spacex.jpeg",
+        "avatar": "../../images/spacex.png",
         "author": "SpaceX",
         "handle": "SpaceX",
         "time": "23h",

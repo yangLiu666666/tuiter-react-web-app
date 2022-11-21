@@ -1,5 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
-// import tuits from './tuits.json';
+import tuits from './tuits.json';
 import {
     updateTuitThunk,
     createTuitThunk,
@@ -30,7 +30,6 @@ const templateTuit = {
 
 const tuitsSlice = createSlice({
     name: 'tuits',
-    // initialState: tuits,
     initialState,
     extraReducers: {
         [updateTuitThunk.fulfilled]:

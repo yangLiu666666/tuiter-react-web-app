@@ -19,7 +19,7 @@ export default [
         userName: 'NASA',
         handle: 'NASA'
     },
-    {   avatarIcon: '../../images/tesla.jpeg',
+    {   avatarIcon: '../../images/boring2.jpg',
         userName: 'Tesla',
         handle: 'Tesla'
     }, ];

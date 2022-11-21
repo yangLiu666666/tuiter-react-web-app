@@ -13,16 +13,13 @@ const WhoToFollowList = () => {
                 <h3>Who to follow</h3>
             </li>
             {
-                who.map(who =>
+                whoArray.map(who =>
                     <WhoToFollowListItem
                         key={who._id}
                         who={who}/>
                 )
             }
         </ul>
-        // <div>
-        //     <h1>Who To Follow!!</h1>
-        // </div>
     );
 };
 
